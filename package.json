@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "yarn run build && node mc-deploy.js && yarn run build && node mc-deploy.js"
+    "deploy": "yarn run build && node mc-deploy.js"
   },
   "dependencies": {
     "@tailwindcss/custom-forms": "^0.2.1",

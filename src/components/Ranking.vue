@@ -37,10 +37,7 @@
             </div>
           </div>
           <div class="score px-2 py-1 bg-gray-200 justify-between items-center flex relative">
-            <div
-              class="score-bg-is-red left-0 absolute h-full"
-              :style="{ width: sm.score + '%' }"
-            ></div>
+            <div class="score-bg-is-red left-0 absolute h-full" :style="{ width: sm.score + '%' }"></div>
             <span class="overall-score-header tracking-wider">整體得分</span>
             <div class="overall-score text-gray-600" :score="sm.score">
               <strong class="score-is-red">{{ sm.score }}</strong> / 100
@@ -132,17 +129,17 @@
 export default {
   name: "Ranking",
   props: {
-    supermarkets: Object
+    supermarkets: Object,
   },
   data() {
     return {
       picked: 0,
       supermarketIsChecked: 0,
-      supermarketIsShown: false
+      supermarketIsShown: false,
     };
   },
   methods: {
-    checkSupermarket: function(supermarket) {
+    checkSupermarket: function (supermarket) {
       if (this.picked == supermarket) {
         this.supermarketIsShown = !this.supermarketIsShown;
       } else {
@@ -150,10 +147,10 @@ export default {
         this.supermarketIsShown = true;
       }
     },
-    closeSupermarket: function() {
+    closeSupermarket: function () {
       this.supermarketIsShown = false;
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -172,7 +169,8 @@ export default {
       width: calc(50% - 16px);
     }
     &:hover {
-      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+        0 10px 10px -5px rgba(0, 0, 0, 0.04);
     }
   }
 }
@@ -236,8 +234,8 @@ export default {
 .overall-score-header {
   z-index: 1;
   color: white;
-  text-shadow: 1px 1px 0px var(--mred), -1px -1px 0px var(--mred), 1px -1px 0px var(--mred),
-    -1px 1px 0px var(--mred);
+  text-shadow: 1px 1px 0px var(--mred), -1px -1px 0px var(--mred),
+    1px -1px 0px var(--mred), -1px 1px 0px var(--mred);
 }
 
 .score-is-red {
