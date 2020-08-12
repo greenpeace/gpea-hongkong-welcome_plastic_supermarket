@@ -11,7 +11,6 @@ Vue.use(VueScrollTo, {
 });
 //
 import "normalize.css/normalize.css";
-import "nprogress/nprogress.css";
 import "@/styles/index.scss";
 Vue.config.productionTip = false;
 new Vue({
