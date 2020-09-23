@@ -31,13 +31,13 @@ const FTPS = require("ftps");
  */
 
 // definitions
-let buildFolder = path.join(__dirname, "build");
-(EndpointURL = "https://cloud.greenhk.greenpeace.org/up-dev-endpoint"),
-  (CampaignId = "7010k000000iJ7aAAE"),
-  (DonationPageUrl = "https://www.greenpeace.org/eastasia/"), // not used now
-  (interests = ["Plastics"]), // Arctic, Climate, Forest, Health, Oceans, Plastics
-  (ftpConfigName = "ftp_hk"), // refer to ~/.npm-en-uploader-secret
-  (ftpRemoteDir = "/2020/petition/zh-hk.2020.oceans.plastic_supermarket.general.signup.na.mc");
+let buildFolder = path.join(__dirname, "build"),
+  EndpointURL = "https://cloud.greenhk.greenpeace.org/petition-pp",
+  CampaignId = "7012u000000Ou6vAAC",
+  DonationPageUrl = "https://www.greenpeace.org/eastasia/", // not used now
+  interests = ["Plastics"], // Arctic, Climate, Forest, Health, Oceans, Plastics
+  ftpConfigName = "ftp_hk", // refer to ~/.npm-en-uploader-secret
+  ftpRemoteDir = "/2020/petition/zh-hk.2020.oceans.plastic_supermarket.general.signup.na.mc";
 
 let indexHtmlFilePath = path.join(buildFolder, "index.html");
 let fbuf = fs.readFileSync(indexHtmlFilePath);

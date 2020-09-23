@@ -26,32 +26,6 @@ module.exports = {
   outputDir: "build",
   assetsDir: "static",
   filenameHashing: true,
-  configureWebpack: {
-    plugins:
-      process.env.NODE_ENV === "production"
-        ? [
-            new PrerenderSPAPlugin({
-              // Required - The path to the webpack-outputted app to prerender.
-              staticDir: path.join(__dirname, "build"),
-              // Required - Routes to render.
-              routes: ["/"],
-              //
-              postProcess(renderedRoute) {
-                renderedRoute.html = renderedRoute.html.replace(
-                  /<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi,
-                  ""
-                );
-                const bodyEnd = renderedRoute.html.indexOf("</body>");
-                renderedRoute.html =
-                  renderedRoute.html.substr(0, bodyEnd) +
-                  extraScripts +
-                  renderedRoute.html.substr(bodyEnd);
-                return renderedRoute;
-              }
-            })
-          ]
-        : []
-  },
   devServer: {
     disableHostCheck: true
   }
