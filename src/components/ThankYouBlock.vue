@@ -4,17 +4,23 @@
       <strong>感謝您加入聯署！</strong>
     </p>
 
-    <p
-      class="text"
-    >感謝您！我們需要更多市民加入，加快超市走塑的步伐；一同表達消費者心聲，促成改變，實現走塑購物選項。您願意分享給身邊的家人和朋友，擴大要求超市盡快淘汰無謂包裝的力量嗎？</p>
-
-    <p class="actions">
-      <a class="btn action-button button--share" href="#" target="_blank" @click="mainShare">分享出去</a>
+    <p class="text">
+      感謝您！我們需要更多市民加入，加快超市走塑的步伐；一同表達消費者心聲，促成改變，實現走塑購物選項。您願意分享給身邊的家人和朋友，擴大要求超市盡快淘汰無謂包裝的力量嗎？
     </p>
 
     <p class="actions">
       <a
-        class="btn action-button button--whatsappshare"
+        class="share-button share-button__main btn action-button button--share"
+        href="#"
+        target="_blank"
+        @click="mainShare"
+        >分享出去</a
+      >
+    </p>
+
+    <p class="actions">
+      <a
+        class="share-button share-button__whatsapp btn action-button button--whatsappshare"
         href="#"
         target="_blank"
         @click="whatsAppShare"
@@ -36,7 +42,8 @@
         class="btn action-button button--support ty-page-donation-link"
         href="https://supporter.ea.greenpeace.org/hk/s/donate?language=zh_HK&campaign=plastics&ref=2020-supermarket-thankyou_page"
         target="_blank"
-      >支持我們</a>
+        >支持我們</a
+      >
     </p>
   </div>
 </template>
@@ -46,13 +53,13 @@ import { mainShare, whatsAppShare } from "@/share.js";
 
 export default {
   name: "ThankYouBlock",
-  data: function () {
+  data: function() {
     return {};
   },
   methods: {
     mainShare,
-    whatsAppShare,
-  },
+    whatsAppShare
+  }
 };
 </script>
 
