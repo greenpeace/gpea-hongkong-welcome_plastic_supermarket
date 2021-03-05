@@ -6,12 +6,12 @@
           <img
             class="logo logo--green"
             src="https://api.greenpeace.org.hk/general/logo/GP-logo-2019-TC-green-%5bweb%5d-01.png"
-            alt="logo"
+            alt="Greenpeace 綠色和平"
           />
           <img
             class="logo logo--white"
             src="https://api.greenpeace.org.hk/general/logo/GP-logo-2019-TC-white-%5bweb%5d-01.png"
-            alt="logo"
+            alt="Greenpeace 綠色和平"
           />
         </div>
         <div class="nav-button">
@@ -25,10 +25,10 @@
       <div class="grid gap-4">
         <div class="content bg-gray-100">
           <section class="section-hero relative">
-            <img class="w-full" src="../src/assets/petition_banner_03.jpg" alt />
+            <img class="w-full mx-auto" src="../src/assets/petition_banner_03.jpg" alt="每年，香港有至少112噸塑膠包裝垃圾流入海洋。綠色和平揭露，超市即棄包裝是塑膠污染的主要源頭之一；超市常用的即棄塑膠包裝，入侵食物鏈，你我日常進食的海鮮、食鹽亦無一倖免！全球相繼有超市落實減塑措施，一同推動香港連鎖超市，包括惠康、百佳等，加入走塑的風潮！"/>
             <div class="col-xs-12">
               <h1 class="mt-8 mb-4 flex flex-wrap tracking-wider text-4xl font-bold">
-                <div>加快超市走塑</div>
+                <div>推動超市走塑</div>
                 <div class="mx-2"></div>
                 <div>急需你的力量</div>
               </h1>
@@ -38,8 +38,8 @@
                 class="text"
               >一同發聲，要求包括龍頭惠康在內的超市回應你的訴求：制定完整減塑藍圖、發展可重用包裝銷售模式、淘汰無謂塑膠包裝，並提供走塑購物選項，讓你「有得揀」。</p>
             </div>
-            <div class="bg-gray-100 py-2 bg-gray-100">
-              <div class="s-logo-wrapper bg-white rounded mt-2 px-2 py-2 overflow-hidden">
+            <div class="bg-gray-100 py-2">
+              <div class="s-logo-wrapper bg-white rounded mt-2 mx-2 p-2 overflow-hidden">
                 <div class="flex flex-wrap justify-around items-center">
                   <div
                     class="w-24 h-24 s-logo lg:m-4 m-2 flex items-center justify-center"
@@ -58,10 +58,7 @@
                 <p
                   class="text"
                 >每年，香港有至少112噸塑膠包裝垃圾流入海洋。超市即棄包裝是塑膠污染的主要源頭之一；這些垃圾入侵食物鏈，您我日常進食的海鮮、食鹽亦無一倖免，暗藏微塑膠！</p>
-                <p class="text">
-                  綠色和平最新報告指出，本港7間連鎖超市的走塑表現均不合格。
-                  <strong>當中惠康和百佳同屬超市龍頭，但前者的走塑資訊透明度低，欠缺創新走塑政策，走塑表現比百佳較遜色。</strong>
-                </p>
+                <p class="text">超市每天售賣無數食材、飲品、日常用品，大部分產品都預先包裝，令顧客「冇得揀」。然而，根據我們的評估和海外經驗，超市絕對有能力改變其貨品包裝及銷售模式，減少無謂包裝。</p>
               </div>
               <div class="px-2 py-2 col-xs-12 col-lg-6">
                 <img src="../src/assets/R0032756.jpg" alt class="w-full" />
@@ -81,13 +78,24 @@
               <div class="col-xs-12 col-md-6 col-xl-7">
                 <p
                   class="text"
-                >超市每天售賣無數食材、飲品、日常用品，大部分產品都預先包裝，令顧客「冇得揀」。然而，根據我們的評估和海外經驗，超市絕對有能力改變其貨品包裝及銷售模式，減少無謂包裝。</p>
-                <p
-                  class="text"
-                >事實上，綠色和平早已向各大超市提供「走塑」方案，亦成功促使個別超市踏出減塑的第一步：有賴逾15,000人聯署、參與查膠隊等行動支持，綠色和平成功推動百佳推行裸裝蔬果試行計劃；百佳亦承認計劃讓公司成功減塑及增加銷量，更成為首間設立裸買補充站的大型超市。</p>
-                <p
-                  class="text"
-                >這是一個好開始，但要取得更大成果，我們需要在2020年得到30,000人加入聯署，推動超市加快改變步伐，加入國際的走塑潮流，發展可重用包裝銷售模式及制定完整減塑藍圖，負起對環境、顧客以至我們下一代的責任。</p>
+                >事實上，綠色和平早已向各大超市提供「走塑」方案，亦成功促使個別超市踏出減塑的第一步：有賴逾24,000人聯署、組成「全城超市查膠隊」、<a class="link" href="https://www.greenpeace.org/hongkong/issues/plastics/press/9373/%e9%81%8e%e7%99%be%e5%b8%82%e6%b0%91%e7%b5%84%e9%9a%8a%e6%9f%a5%e8%86%a0-%e6%8f%ad%e9%80%be%e5%8d%8a%e5%8c%85%e8%a3%9d%e7%94%b1%e8%b6%85%e5%b8%82%e8%87%aa%e8%a1%8c%e5%8a%a0%e4%b8%8a/" target="_blank">發佈超市即棄塑膠包裝使用情況調查</a>、舉辦<a class="link" href="https://www.greenpeace.org/hongkong/issues/plastics/update/11980/%E8%B6%85%E5%B8%82%E8%B5%B0%E5%A1%91%E4%B8%8D%E5%90%83%E5%8A%9B%E5%8F%88%E8%A8%8E%E5%A5%BD-%E6%93%B4%E5%B1%95%E5%AE%A2%E6%BA%90%E5%A2%9E%E7%94%9F%E6%84%8F/" target="_blank">跨地超市業界科學峰會</a>等行動支持，綠色和平<strong>在2021年2月成功推動百佳的母公司屈臣氏集團進一步走塑，重點包括在2030年前：</strong></p>
+                <div class="bg-white border rounded container mx-auto py-4 px-4">
+                  <ul class="list-disc list-inside">
+                    <li class="mb-2"><b>裸買補充站：</b>增加設有裸買補充站的分店數量最少 10 倍</li>
+                    <li class="mb-2"><b>減塑蔬果區：</b>擴展至最少 50 間分店</li>
+                    <li class="mb-2"><b>走塑優惠：</b>自備餐盒可享$2折扣，於所有沙律櫃位及最少50%的燒味櫃位全面實施</li>
+                    <li class="mb-2"><b>環保袋共享站：</b>擴展至全線分店</li>
+                    <li class="mb-2"><b>減售原生塑膠即棄品：</b>淘汰最少 50%以原生塑膠為原料的即棄用品，以其他可重用、紙製、回收或生物基原料代替</li>
+                    <li class="mb-2"><b>膠袋減量：</b>用於即棄膠袋及透明平頭袋的原生塑膠量，將分別減少30%及50%</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-xs-12">
+                <p class="text">除此之外，綠色和平於2020年5月發佈<a class="link" href="https://www.greenpeace.org/hongkong/issues/plastics/update/18629/%E3%80%8A%E9%A6%99%E6%B8%AF%E9%80%A3%E9%8E%96%E8%B6%85%E5%B8%82%E8%B5%B0%E5%A1%91%E8%A9%95%E7%B4%9A%E3%80%8B%E5%A0%B1%E5%91%8A/" target="_blank">《香港連鎖超市走塑評級報告》</a>，本港7間連鎖超市的走塑表現均不合格。<strong>當中惠康和百佳同屬超市龍頭，但前者的走塑資訊透明度低，欠缺創新走塑政策，走塑表現較百佳遜色。</strong></p>
+                <p class="text">這是一個好開始，但要取得更大成果，我們需要在2021年得到40,000人加入聯署，推動超市加快改變步伐，加入國際的走塑潮流，發展可重用包裝銷售模式及制定完整減塑藍圖，並確保避免使用紙、生物塑膠等其他即棄物料取代塑膠，負起對環境、顧客以至我們下一代的責任。</p>
               </div>
             </div>
             <div class="row">
@@ -109,16 +117,26 @@
                 </ul>
               </div>
               <div class="col-xs-12">
-                <hr class="my-4 border-bg-gray-100" />
+                <hr class="py-4 border-bg-gray-100" />
                 <p class="text-gray-900 text-sm text">
                   ＊
                   <strong>甚麼是無謂包裝？</strong>
-                  <br />無謂包裝是指預先以不必要、用完即棄的塑膠，例如用一層或多層塑膠（如保鮮紙、發泡膠盤、膠袋）包裝蔬果、零食等。
+                  <br /><br />無謂包裝是指預先以不必要、用完即棄的塑膠，例如用一層或多層塑膠（如保鮮紙、發泡膠盤、膠袋）包裝蔬果、零食等。
                 </p>
                 <p class="text-gray-900 text-sm text">
-                  ＊
+                  ＊＊
                   <strong>甚麼是無塑購物區域？</strong>
-                  <br />該區域的貨品沒有使用任何即棄塑膠包裝，店舖以按樽制收回及重用器皿，或讓顧客使用可重用器皿，按需要購買合適份量。
+                  <br /><br />該區域的貨品沒有使用任何即棄塑膠包裝，店舖以按樽制收回及重用器皿，或讓顧客使用可重用器皿，按需要購買合適份量。
+                </p>
+                <p class="text-gray-900 text-sm text">
+                  ＊＊＊
+                  <strong>甚麼是原生塑膠？</strong>
+                  <br /><br />指直接由石油提煉而成的塑膠，而非以回收塑膠再製成的「再生塑膠」。
+                </p>
+                <p class="text-gray-900 text-sm text">
+                  ＊＊＊＊
+                  <strong>甚麼是裸買補充站？</strong>
+                  <br /><br />該站讓顧客自備容器，按照實際需要決定購買份量。
                 </p>
               </div>
             </div>
@@ -160,7 +178,7 @@
           <aside class="aside-enform enform relative">
             <div id="enform" class="form-container form-container--sticky sticky">
               <div class="form-header text-white mt-2 mb-4 text-2xl text-center font-bold" v-if="!formSubmitted">
-                <h2 class="mb-2">加快超市走塑 急需你的力量</h2>
+                <h2 class="mb-2">推動超市走塑 急需你的力量</h2>
                 <p
                   class="font-normal text-sm"
                 >一同發聲，要求包括龍頭惠康在內的超市回應你的訴求：制定完整減塑藍圖、發展可重用包裝銷售模式、淘汰無謂塑膠包裝，並提供走塑購物選項，讓你「有得揀」。</p>

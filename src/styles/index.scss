@@ -59,6 +59,14 @@ body {
   }
 }
 
+.link {
+  color: #108ee9;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .text--mred {
   color: var(--mred);
 }
