@@ -37,7 +37,7 @@ let buildFolder = path.join(__dirname, "build"),
   DonationPageUrl = "https://www.greenpeace.org/eastasia/", // not used now
   interests = ["Plastics"], // Arctic, Climate, Forest, Health, Oceans, Plastics
   ftpConfigName = "ftp_hk", // refer to ~/.npm-en-uploader-secret
-  ftpRemoteDir = "/2020/petition/zh-hk.2020.oceans.plastic_supermarket.general.signup.na.mc";
+  ftpRemoteDir = "/2021/supermarket";
 
 let indexHtmlFilePath = path.join(buildFolder, "index.html");
 let fbuf = fs.readFileSync(indexHtmlFilePath);

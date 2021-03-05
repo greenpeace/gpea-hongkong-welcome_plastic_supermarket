@@ -20,9 +20,7 @@ const extraScripts = `
 module.exports = {
   // options...
   publicPath:
-    process.env.NODE_ENV === "production"
-      ? "https://api.greenpeace.org.hk/2020/petition/zh-hk.2020.oceans.plastic_supermarket.general.signup.na.mc/"
-      : "/",
+    process.env.NODE_ENV === "production" ? "https://api.greenpeace.org.hk/2021/supermarket/" : "/",
   outputDir: "build",
   assetsDir: "static",
   filenameHashing: true,
