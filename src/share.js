@@ -5,7 +5,7 @@ const mainShare = event => {
   //
   const fbShare = () => {
     var baseURL = "https://www.facebook.com/sharer/sharer.php";
-    var u = "https://act.gp/3nl20S9";
+    var u = "https://act.gp/30dDPfd";
     var t = (window.innerHeight - 436) / 2;
     var l = (window.innerWidth - 626) / 2;
     window.open(
@@ -21,7 +21,7 @@ const mainShare = event => {
         title: "",
         text:
           "Hi👋你覺唔覺超級市場嘅商品被即棄塑膠包裝好無謂？綠色和平揭露，超市即棄包裝係塑膠污染嘅主要源頭之一；呢啲即棄塑膠包裝入侵食物鏈，海鮮、食鹽亦無一倖免！綠色和平推動到百佳已踏出減塑第一步，但加快超市包括惠康走塑的步伐，急需你的力量，立即聯署👉 ",
-        url: "https://act.gp/3rVthy1"
+        url: "https://act.gp/3qjJ9Iw"
       })
       .then()
       .catch();
@@ -35,7 +35,7 @@ const whatsAppShare = event => {
   var w =
     "https://api.whatsapp.com/send?text=" +
     encodeURI(
-      "Hi 你覺唔覺超級市場嘅商品被即棄塑膠包裝好無謂？綠色和平揭露，超市即棄包裝係塑膠污染嘅主要源頭之一；呢啲即棄塑膠包裝入侵食物鏈，海鮮、食鹽亦無一倖免！綠色和平推動到百佳已踏出減塑第一步，但加快超市包括惠康走塑的步伐，急需你的力量，立即聯署👉 https://act.gp/38fJC94"
+      "Hi 你覺唔覺超級市場嘅商品被即棄塑膠包裝好無謂？綠色和平揭露，超市即棄包裝係塑膠污染嘅主要源頭之一；呢啲即棄塑膠包裝入侵食物鏈，海鮮、食鹽亦無一倖免！綠色和平推動到百佳已踏出減塑第一步，但加快超市包括惠康走塑的步伐，急需你的力量，立即聯署👉 https://act.gp/30hkDgN"
     );
   window.open(w);
 };
