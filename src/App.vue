@@ -30,7 +30,7 @@
               <h1 class="mt-8 mb-4 flex flex-wrap tracking-wider text-4xl font-bold">
                 <div>推動超市走塑</div>
                 <div class="mx-2"></div>
-                <div>急需你的力量</div>
+                <div>急需您我行動</div>
               </h1>
             </div>
             <div class="md:hidden col-xs-12">
@@ -55,8 +55,7 @@
           <section class="px-4 py-4">
             <div class="row md:mb-8">
               <div class="col-xs-12 col-lg-6">
-                <p
-                  class="text"
+                <p class="text"
                 >每年，香港有至少112噸塑膠包裝垃圾流入海洋。超市即棄包裝是塑膠污染的主要源頭之一；這些垃圾入侵食物鏈，您我日常進食的海鮮、食鹽亦無一倖免，暗藏微塑膠！</p>
                 <p class="text">超市每天售賣無數食材、飲品、日常用品，大部分產品都預先包裝，令顧客「冇得揀」。然而，根據我們的評估和海外經驗，超市絕對有能力改變其貨品包裝及銷售模式，減少無謂包裝。</p>
               </div>
@@ -78,7 +77,7 @@
               <div class="col-xs-12 col-md-6 col-xl-7">
                 <p
                   class="text"
-                >事實上，綠色和平早已向各大超市提供「走塑」方案，亦成功促使個別超市踏出減塑的第一步：有賴逾24,000人聯署、組成「全城超市查膠隊」、<a class="link" href="https://www.greenpeace.org/hongkong/issues/plastics/press/9373/%e9%81%8e%e7%99%be%e5%b8%82%e6%b0%91%e7%b5%84%e9%9a%8a%e6%9f%a5%e8%86%a0-%e6%8f%ad%e9%80%be%e5%8d%8a%e5%8c%85%e8%a3%9d%e7%94%b1%e8%b6%85%e5%b8%82%e8%87%aa%e8%a1%8c%e5%8a%a0%e4%b8%8a/" target="_blank">發佈超市即棄塑膠包裝使用情況調查</a>、舉辦<a class="link" href="https://www.greenpeace.org/hongkong/issues/plastics/update/11980/%E8%B6%85%E5%B8%82%E8%B5%B0%E5%A1%91%E4%B8%8D%E5%90%83%E5%8A%9B%E5%8F%88%E8%A8%8E%E5%A5%BD-%E6%93%B4%E5%B1%95%E5%AE%A2%E6%BA%90%E5%A2%9E%E7%94%9F%E6%84%8F/" target="_blank">跨地超市業界科學峰會</a>等行動支持，綠色和平<strong>在2021年2月成功推動百佳的母公司屈臣氏集團進一步走塑，重點包括在2030年前：</strong></p>
+                >事實上，綠色和平早已向各大超市提供「走塑」方案，亦成功促使個別超市踏出減塑的第一步：有賴逾24,000人聯署、組成「全城超市查膠隊」、發佈<a class="link" href="https://www.greenpeace.org/hongkong/issues/plastics/press/9373/%e9%81%8e%e7%99%be%e5%b8%82%e6%b0%91%e7%b5%84%e9%9a%8a%e6%9f%a5%e8%86%a0-%e6%8f%ad%e9%80%be%e5%8d%8a%e5%8c%85%e8%a3%9d%e7%94%b1%e8%b6%85%e5%b8%82%e8%87%aa%e8%a1%8c%e5%8a%a0%e4%b8%8a/" target="_blank">超市即棄塑膠包裝使用情況調查</a>、舉辦<a class="link" href="https://www.greenpeace.org/hongkong/issues/plastics/update/11980/%E8%B6%85%E5%B8%82%E8%B5%B0%E5%A1%91%E4%B8%8D%E5%90%83%E5%8A%9B%E5%8F%88%E8%A8%8E%E5%A5%BD-%E6%93%B4%E5%B1%95%E5%AE%A2%E6%BA%90%E5%A2%9E%E7%94%9F%E6%84%8F/" target="_blank">跨地超市業界科學峰會</a>等行動支持，綠色和平<strong>在2021年2月成功推動百佳的母公司屈臣氏集團進一步走塑，首設具體走塑目標，重點包括在2030年前：</strong></p>
                 <div class="bg-white border rounded container mx-auto py-4 px-4">
                   <ul class="list-disc list-inside">
                     <li class="mb-2"><b>裸買補充站：</b>增加設有裸買補充站的分店數量最少 10 倍</li>
@@ -178,7 +177,7 @@
           <aside class="aside-enform enform relative">
             <div id="enform" class="form-container form-container--sticky sticky">
               <div class="form-header text-white mt-2 mb-4 text-2xl text-center font-bold" v-if="!formSubmitted">
-                <h2 class="mb-2">推動超市走塑 急需你的力量</h2>
+                <h2 class="mb-2">推動超市走塑 急需你我行動</h2>
                 <p
                   class="font-normal text-sm"
                 >一同發聲，要求包括龍頭惠康在內的超市回應你的訴求：制定完整減塑藍圖、發展可重用包裝銷售模式、淘汰無謂塑膠包裝，並提供走塑購物選項，讓你「有得揀」。</p>

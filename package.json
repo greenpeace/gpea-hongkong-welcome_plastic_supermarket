@@ -1,6 +1,5 @@
 {
   "name": "gpea-hongkong-welcome_plastic_supermarket",
-  "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

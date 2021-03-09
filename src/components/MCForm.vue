@@ -74,8 +74,6 @@
                 >
                   <option value="852">+852</option>
                   <option value="853">+853</option>
-                  <option value="886">+886</option>
-                  <option value="86">+86</option>
                 </select>
                 <span class="en__field__error" v-if="errors.length">{{ errors[0] }}</span>
               </ValidationProvider>
