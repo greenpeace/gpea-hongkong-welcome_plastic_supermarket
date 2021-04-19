@@ -116,7 +116,7 @@
                 </ul>
               </div>
               <div class="col-xs-12">
-                <hr class="py-4 border-bg-gray-100" />
+                <hr class="px-4 my-10 border-bg-gray-100" />
                 <p class="text-gray-900 text-sm text">
                   ＊
                   <strong>甚麼是無謂包裝？</strong>
@@ -147,7 +147,7 @@
             </div>
             <Ranking class="mb-8" :supermarkets="supermarkets" />
             <div class="px-4 py-4">
-              <hr class="my-4 border-bg-gray-100" />
+              <hr class="px-4 my-10 border-bg-gray-100" />
               <h3 class="text-xl font-bold mb-4">評級方法</h3>
               <p class="text">
                 《香港連鎖超市走塑表現評級報告》參考綠色和平應用於全球多個國家或地區，包括美國、英國、西班牙及台灣等超市走塑表現評分準則，並依據各超市在香港的分店數目以及市場佔有率，調整訂下適用於香港市場的「超市塑膠使用問卷調查」及評分方法。於2019年8月向7大連鎖超市品牌的管理層發出問卷，包括（依字首筆畫或首字母排序）：一田、牛奶公司、屈臣氏集團、華潤、AEON、city'super及Marks
@@ -185,7 +185,7 @@
               <div class="enform-progress my-4">
                 <div class="overflow-hidden rounded shadow w-full bg-gray-200">
                   <div
-                    class="transition-all font-bold text-white bg-gporangelight p-1 text-center duration-1000 overflow-visible whitespace-no-wrap"
+                    class="font-bold text-sm text-white transition-all bg-gporangelight p-1 text-center duration-1000 overflow-visible whitespace-no-wrap"
                     v-bind:style="{width: `${this.signupProgress || 0}%` }"
 
                   >{{this.participants ? this.participants.toLocaleString()+"人已聯署" : "-"}} </div>
@@ -369,7 +369,7 @@ export default {
           this.isLoading = false
 
           if (response.Supporter) { // ok, go to next page
-            mcHelper.sendPetitionTracking("2020-supermarket")
+            mcHelper.sendPetitionTracking("supermarket")
             this.formSubmitted = true
             this.participants += 1
             document.querySelector(".enform").scrollIntoView();
@@ -413,7 +413,7 @@ export default {
     this.goal = numSignupTarget;
     this.participants = 0;
     setTimeout(() => { // for the animation
-      this.participants = numSignup;
+      this.participants = numSignup + 24224; // Plus 2019 supermarket
     }, 1000)
 
     this.$nextTick(() => {
